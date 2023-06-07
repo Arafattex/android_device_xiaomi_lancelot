@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Mind gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 PRODUCT_NAME := lineage_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
