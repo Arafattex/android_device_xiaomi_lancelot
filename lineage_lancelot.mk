@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lancelot/device.mk)
 
 # Gapps
-WITH_GAPPS := 2
+WITH_GAPPS := 0
 TARGET_GAPPS_ARCH := arm64
 
 # Valid for core/full GAPPS (default=true)
@@ -34,7 +34,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 ALPHA_MAINTAINER := shas45558
-ALPHA_BUILD_TYPE := OFFICIAL
+ALPHA_BUILD_TYPE := UNOFFICIAL
 IS_PHONE := true
 
 # Set Boot Animination Resolution
